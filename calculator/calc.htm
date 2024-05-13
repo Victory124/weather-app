@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container">
+         <!-- Calculator project -->   
+        <div class="clock-field">
+               <span id="hrs">00</span>
+               <span>:</span>
+               <span id="mins">00</span>
+               <span>:</span>
+               <span id="secs">00</span>
+        </div>
+              
+        <!-- Calculator project -->
+        <div class="calculator">
+            <form>
+                 <div class="display">
+                    <input type="text" id="display">
+                 </div>
+                 <div>
+                    <input type="button" id="clear" class="operator" value="AC">
+                    <input type="button" id="del" class="operator" value="DE">
+                    <input type="button" class="operator val" value=".">
+                    <input type="button" class="operator val" value="/">
+                 </div>
+                 <div>
+                    <input type="button" class="val" value="7">
+                    <input type="button" class="val" value="8">
+                    <input type="button" class="val" value="9">
+                    <input type="button" class="operator val" value="*">
+                 </div>
+                 <div>
+                    <input type="button" class="val" value="4">
+                    <input type="button" class="val" value="5">
+                    <input type="button" class="val" value="6">
+                    <input type="button" class="operator val" value="-">
+                 </div>
+                 <div>
+                    <input type="button" class="val" value="1">
+                    <input type="button" class="val" value="2">
+                    <input type="button" class="val" value="3">
+                    <input type="button" class="operator val" value="+">
+                 </div>
+                 <div>
+                    <input type="button" class="val" value="00">
+                    <input type="button" class="val" value="0">
+                    <input type="button" id="equal" class="operator" value="=">
+                 </div>
+            </form>
+       </div> 
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
